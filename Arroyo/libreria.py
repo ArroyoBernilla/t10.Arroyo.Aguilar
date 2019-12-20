@@ -307,7 +307,7 @@ def volumen_cilindro(largo,ancho,generatriz):
          print("El cilindro es grande puede ser utilizado  y el volumen del cilindro es: ", volumen)
     else:
         #ESTABLECEMOS UNA CONDICION
-        print("El volumen del cilindro es pequeñod ya que su volumen es: ", volumen)
+        print("El volumen del cilindro es pequeño ya que su volumen es: ", volumen)
     return volumen
 
 ################################################################################

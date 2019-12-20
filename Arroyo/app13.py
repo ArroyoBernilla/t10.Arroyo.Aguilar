@@ -1,13 +1,13 @@
 import os
 import libreria
 
-trabajo=int(os.sys.argv[1])
+velocidad=int(os.sys.argv[1])
 tiempo=int(os.sys.argv[2])
 
-dis=libreria.calcular_potencia(trabajo,tiempo)
+dis=libreria.calcular_aceleracion_auto(velocidad,tiempo)
   #IMPRESION DE DATOS OBTENIDOS
 print("**********************")
-print("trabajo= ", trabajo)
+print("velocidad= ", velocidad)
 print("Tiempo= ", tiempo)
 print(dis)
 print("**********************")
