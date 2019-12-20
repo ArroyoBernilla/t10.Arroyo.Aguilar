@@ -1,10 +1,13 @@
 import os
 import libreria
 
-palabra=os.sys.argv[1]
-numero=int(os.sys.argv[2])
+velinical=int(os.sys.argv[1])
+aceleracion=int(os.sys.argv[2])
+tiempo=int(os.sys.argv[3])
 
-cad=libreria.palabra_rep(palabra,numero)
-print("******************************************************")
-print(cad)
-print("******************************************************")
+calc=libreria.calcular_velocidad_final(velinical,aceleracion,tiempo)
+print("condicion: ", calc)
+print("**********************")
+print("Su velocidad inicial fue= ", velinical)
+print("Promedio de la acelracion = ", aceleracion)
+print("**********************")

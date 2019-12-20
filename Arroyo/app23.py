@@ -1,8 +1,9 @@
 import os
 import libreria
-m=int(os.sys.argv[1])
 
-resultado=libreria.factorial_numero(m)
-print("****************************************")
-print("EL RESULTADO DE LA OPERACION  ES ", resultado)
-print("****************************************")
+diagonal_mayor=int(os.sys.argv[1])
+diagonal_menor=int(os.sys.argv[2])
+resultado=libreria.area_rombo(diagonal_menor,diagonal_mayor)
+print("*************************************")
+print("El area del rombo es: ", resultado)
+print("*************************************")

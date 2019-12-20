@@ -1,14 +1,13 @@
 import os
 import libreria
 
-a=int(os.sys.argv[1])
-b=int(os.sys.argv[2])
-c=int(os.sys.argv[3])
+velocidad=int(os.sys.argv[1])
+tiempo=int(os.sys.argv[2])
 
-respuesta=libreria.hallando_posibles_soluciones(a,b,c)
-print("*******************************************")
-print("VALOR DE a:", a)
-print("VALOR DE b:", b)
-print("VALOR DE c:", c)
-print("RESPUESTA DE LA FORMULA GENERAL:", respuesta)
-print("******************************************")
+dis=libreria.detectar_excso_velocidad(velocidad,tiempo)
+  #IMPRESION DE DATOS OBTENIDOS
+print("**********************")
+print("Velocidad= ", velocidad)
+print("Tiempo= ", tiempo)
+print(dis)
+print("**********************")

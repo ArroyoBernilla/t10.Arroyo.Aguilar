@@ -1,13 +1,13 @@
 import os
 import libreria
 
-masa=int(os.sys.argv[1])
-volumen=int(os.sys.argv[2])
+radio=int(os.sys.argv[1])
+velocidad_angular=int(os.sys.argv[2])
 
-dis=libreria.calcular_densidad(masa,volumen)
+dis=libreria.calcular_ACELERACION_ANGULAR(radio,velocidad_angular)
   #IMPRESION DE DATOS OBTENIDOS
 print("*************************************************************")
-print("Velocidad= ", masa)
-print("Tiempo= ", volumen)
-print("DESCRIPCION BREVE:", dis)
+print("Velocidad angular= ", velocidad_angular)
+print("Radio= ", radio)
+print("MENSAJE DE RECOMENDACION:", dis)
 print("*************************************************************")

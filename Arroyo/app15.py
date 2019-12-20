@@ -1,9 +1,14 @@
 import os
 import libreria
 
-lista_frase=os.sys.argv[1],os.sys.argv[2],os.sys.argv[3],os.sys.argv[4],os.sys.argv[5],os.sys.argv[6],os.sys.argv[7]
+a=int(os.sys.argv[1])
+b=int(os.sys.argv[2])
+c=int(os.sys.argv[3])
 
-aletra,gletra=libreria.separandor_de_normabres_porinicial(lista_frase)
-print("Nombre con inicial diferente de A,B,C;D;F,G:", aletra)
-print("Nombre con incial con letra A,B,C,D,F,G", gletra)
-
+respuesta=libreria.hallando_posibles_soluciones(a,b,c)
+print("*******************************************")
+print("VALOR DE a:", a)
+print("VALOR DE b:", b)
+print("VALOR DE c:", c)
+print("RESPUESTA DE LA FORMULA GENERAL:", respuesta)
+print("******************************************")
